@@ -3,7 +3,7 @@ html {
   font-family: "Raleway", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #000000;
+  color: #777;
   font-weight: 300;
   width: 100% !important;
   height: 100% !important;
@@ -40,7 +40,6 @@ p.intro {
 }
 a {
   color: #dad4b5;
-  font-weight: 900;
 }
 a:hover,
 a:focus {
@@ -113,9 +112,9 @@ a:focus,
 }
 #menu a.navbar-brand {
   /* font-family: "Dancing Script", cursive; */
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, cursive;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 36px;
   color: #f2e8c6;
   font-weight: 900;
   letter-spacing: 1px;
@@ -197,13 +196,13 @@ a:focus,
   font-weight: 900;
   background-color: #dad4b53b;
 }
+
 /* Header Section */
 .intro {
   display: table;
   width: 100%;
   padding: 0;
   background: url(../Resimler/IMG-20240824-WA0005.jpg) no-repeat center;
-  position: relative;
   background-color: #080808;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -231,13 +230,12 @@ a:focus,
   background: rgba(0, 0, 0, 0.4);
 }
 .intro h1 {
-  font-family: "Times New Roman", Times, serif, cursive;
-  color: #ffffff;
-  font-size: 8em;
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+  font-size: 10em;
   font-weight: 700;
   margin-top: 0;
-  margin-bottom: 8px;
-  box-shadow: inset 0 -2.5px 0 0 rgb(255, 255, 255);
+  margin-bottom: 10px;
 }
 .intro span {
   color: #dad4b5;
