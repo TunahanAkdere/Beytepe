@@ -1,0 +1,59 @@
+/********** Template CSS **********/
+:root {
+  --primary: #ff0000;
+  --light: #067cf2;
+  --dark: #0f172b;
+}
+
+.ff-secondary {
+  font-family: "Times New Roman", Times, serif, cursive;
+}
+
+.fw-medium {
+  font-weight: 900 !important;
+}
+
+.fw-semi-bold {
+  font-weight: 900 !important;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 99;
+}
+
+/*** Button ***/
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+  color: #0b0b0b;
+}
+
+.btn-square {
+  width: 38px;
+  height: 38px;
+}
+
+.btn-sm-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+
+/*** Food Menu ***/
+.nav-pills .nav-item .active {
+  border-bottom: 2px solid var(--primary);
+}
